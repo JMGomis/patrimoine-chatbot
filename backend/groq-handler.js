@@ -26,7 +26,7 @@ async function handleGroqQuery(message, chatHistory = [], userProfile) {
           content: message
         }
       ],
-      model: "mixtral-8x7b-32768",
+      model: "llama3-70b-8192",
       temperature: 0.3,
       max_tokens: 1024
     });
